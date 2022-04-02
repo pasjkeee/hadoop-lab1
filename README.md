@@ -43,11 +43,17 @@
  3) Проверить dfs на наличие output и input директорий обнулить при необходимости
  
 YOUT_HADOOP_PATH/bin/hdfs dfs -ls
+
 Found 2 items
+
 drwxr-xr-x   - root supergroup          0 2022-03-30 12:25 input
+
 drwxr-xr-x   - root supergroup          0 2022-03-30 12:25 output
+
 YOUT_HADOOP_PATH/bin/hdfs dfs -rm -r input
+
 YOUT_HADOOP_PATH/bin/hdfs dfs -rm -r output
+
 YOUT_HADOOP_PATH/bin/hdfs dfs -put input
 
  4) Запуск обработки
