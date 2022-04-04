@@ -11,6 +11,7 @@ public class HW1Partitioner extends Partitioner<Text, IntWritable>  {
 
         String id = key.toString();
 
+        /** find id on Node[id][Name] */
         if (id.charAt(4) == '1') {
             return 0;
         }
